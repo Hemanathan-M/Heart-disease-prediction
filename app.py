@@ -13,7 +13,7 @@ def load_data():
     y = df['target']
     return X, y
 
-X, y = load_data()
+X, y = load_data()   
 
 # Train model (or load a pre-trained model)
 @st.cache_resource
